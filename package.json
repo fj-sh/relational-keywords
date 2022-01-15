@@ -1,7 +1,7 @@
 {
   "name": "",
   "version": "",
-  "scripts" : {
+  "scripts": {
     "build": "tsc",
     "build:production": "npm run prestart && npm prune --production",
     "watch": "tsc --w",
@@ -11,8 +11,19 @@
     "test": "echo \"No tests yet...\""
   },
   "description": "",
+  "dependencies": {
+    "playwright": "^1.16.3"
+  },
   "devDependencies": {
     "@azure/functions": "^1.0.1-beta1",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
     "npm-run-all": "^4.1.5",
     "typescript": "^3.3.3"
   }
